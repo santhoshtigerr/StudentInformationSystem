@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+h1{
+    color:blue;
+    text-align:center;
+    
+    padding:20px;
+    background-color:orange;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+ ul{
+    float:right;
+    list-style-type:none;
+    margin-top:30px;
+    min-height:40px;
+    margin-right:60px;
+    font-size:20px;
+ }
+ marquee{
+   color:red;
+ }
+
+ ul li{
+    display:inline-block;
+ }
+ ul li a{
+    text-decoration: none;
+    color:blue;
+    padding:10px;
+ }
+ ul li a:hover{
+    color :yellow;
+    background-color:green;
+ }
+ ul  select option{
+   text-decoration: none;
+  
+   padding:10px;
+}
+ul select option:hover{
+   color :yellow;
+   background-color:green;
+}
+select{
+   font-size: 18px;
+}
+#submenu{
+   left:0;
+   opacity: 0;
+   position:absolute;
+   top:35px;
+   visibility: visible;
+   z-index:1;
+}
+
+#submenu li{
+      float: none;
+      
+}
